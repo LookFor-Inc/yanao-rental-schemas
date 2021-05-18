@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Equipment category item with types",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "types": {
+      "type": "array",
+      "items":{
+        "$ref": "../equipment-type/equipment-type-item-v1.json"
+      }
+    }
+  },
+  "required": [
+    "name",
+    "types"
+  ],
+  "additionalProperties": false
+}

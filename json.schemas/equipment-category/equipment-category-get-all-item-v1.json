@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "List of all equipments",
+  "type": "object",
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items":{
+        "$ref": "equipment-category-item-v1.json"
+      }
+    }
+  },
+  "required": [
+    "categories"
+  ],
+  "additionalProperties": false
+}
