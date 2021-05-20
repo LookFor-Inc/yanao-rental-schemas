@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "User info response",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "maximum": 9223372036854775807
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "type": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "middleName": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string",
+      "existingJavaType": "java.net.URL"
+    },
+    "registrationDate": {
+      "type": "string",
+      "existingJavaType": "java.util.Date"
+    }
+  },
+  "required": [
+    "id",
+    "email",
+    "type",
+    "avatar",
+    "registrationDate"
+  ],
+  "additionalProperties": false
+}

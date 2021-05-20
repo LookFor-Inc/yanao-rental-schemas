@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Login response",
+  "type": "object",
+  "properties": {
+    "jwtToken": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "jwtToken"
+  ],
+  "additionalProperties": false
+}
