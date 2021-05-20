@@ -10,14 +10,14 @@
     "name": {
       "type": "string"
     },
-    "town": {
+    "address": {
       "type": "string"
     }
   },
   "required": [
     "id",
     "name",
-    "town"
+    "address"
   ],
   "additionalProperties": false
 }
