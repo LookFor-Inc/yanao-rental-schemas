@@ -3,8 +3,20 @@
   "title": "Equipment category item with types",
   "type": "object",
   "properties": {
+    "id": {
+      "type": "integer",
+      "maximum": 9223372036854775807
+    },
     "name": {
       "type": "string"
+    },
+    "img": {
+      "type": "string",
+      "existingJavaType": "java.net.URL"
+    },
+    "available": {
+      "type": "boolean",
+      "default": true
     },
     "types": {
       "type": "array",
@@ -14,7 +26,10 @@
     }
   },
   "required": [
+    "id",
     "name",
+    "img",
+    "available",
     "types"
   ],
   "additionalProperties": false

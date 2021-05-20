@@ -9,11 +9,16 @@
     },
     "name": {
       "type": "string"
+    },
+    "available": {
+      "type": "boolean",
+      "default": true
     }
   },
   "required": [
     "id",
-    "name"
+    "name",
+    "available"
   ],
   "additionalProperties": false
 }
