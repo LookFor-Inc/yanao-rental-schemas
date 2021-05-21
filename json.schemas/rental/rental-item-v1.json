@@ -12,12 +12,25 @@
     },
     "address": {
       "type": "string"
+    },
+    "img": {
+      "type": "string",
+      "existingJavaType": "java.net.URL"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
     }
   },
   "required": [
     "id",
     "name",
-    "address"
+    "address",
+    "img",
+    "latitude",
+    "longitude"
   ],
   "additionalProperties": false
 }
