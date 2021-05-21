@@ -22,6 +22,12 @@
     },
     "longitude": {
       "type": "number"
+    },
+    "workTime": {
+      "type": "array",
+      "items": {
+        "$ref": "work-time-item-v1.json"
+      }
     }
   },
   "required": [
