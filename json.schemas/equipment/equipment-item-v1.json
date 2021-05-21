@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Equipment item",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "maximum": 9223372036854775807
+    },
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string",
+      "existingJavaType": "java.net.URL"
+    },
+    "totalCount": {
+      "type": "integer",
+      "maximum": 9223372036854775807
+    },
+    "freeCount": {
+      "type": "integer",
+      "maximum": 9223372036854775807
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "img",
+    "totalCount",
+    "freeCount"
+  ],
+  "additionalProperties": false
+}
