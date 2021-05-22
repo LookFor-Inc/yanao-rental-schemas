@@ -14,6 +14,10 @@
       "type": "string",
       "existingJavaType": "java.net.URL"
     },
+    "price": {
+      "type": "integer",
+      "maximum": 9223372036854775807
+    },
     "totalCount": {
       "type": "integer",
       "maximum": 9223372036854775807
@@ -27,6 +31,7 @@
     "id",
     "name",
     "img",
+    "price",
     "totalCount",
     "freeCount"
   ],
